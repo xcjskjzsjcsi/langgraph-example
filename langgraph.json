@@ -3,5 +3,7 @@
   "graphs": {
     "agent": "./agent.py:graph"
   },
-  "env": ".env"
+  "env": [
+    "TAVILY_API_KEY"
+  ]
 }
